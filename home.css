@@ -1,0 +1,160 @@
+body{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    height: 60px;
+    width: 100%;
+    border:2px solid none;
+    background-color: #2e8b63;
+}
+#icon{
+    float: left;
+    margin-left: 1%;
+    margin-top: -1%;
+}
+#social {
+    float: right;
+}
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+/*searchcss*/
+#search{
+    height: 450px;
+    width: 100%;
+    background-image: url('leaf.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 450px;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(243 235 235 /60%);
+    border-radius:50%;
+    margin-left: 45%;
+    margin-top: 2%;
+    position: absolute;
+}
+#logo>span{
+    margin-left: 30%;
+    margin-top: 20%;
+    position: absolute;
+    font-size: 80px;
+}
+#heading{
+    margin-left: 25%;
+    margin-top: 14%;
+    position: absolute;
+    font-weight: bold;
+    font-size: 40px;
+    color: whitesmoke;
+}
+.dropdown{
+    height: 60px;
+    width:60%;
+    margin-left: 23%;
+    margin-top: 20%;
+    position: absolute;
+    border: 2px solid none;
+}
+select{
+    height: 60px;
+    width:40%;
+    font-size: 20px;
+    text-align: center;
+}
+.restSelect{
+    width:55%;
+}
+/*quicksearchcss*/
+#quicksearch{
+    height: 600px;
+    width: 80%;
+    border:4px dotted none;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+#quickHeading{
+font-size: 30px;
+color: #c79305;
+display: block;
+margin-left: 2%;
+/* visibility:visible; */
+
+}
+#quicksubHeading{
+    font-size: 20px;
+    color: #2e8b63;
+    display: block;
+    line-height:3;
+    margin-left: 2%;
+}
+.tileContainer{
+    height: 180px;
+    width: 30%;
+    box-shadow: 10px 10px 10px rgb(223 201 10);
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.tileComponent1>img{
+    width: 100%;
+    height: 180px;
+}
+.tileComponent1{
+width: 50%;
+height: 180px;
+background-color: olive;
+float:left;
+}
+.tileComponent2{
+    width: 45%;
+    margin-Left:5%;
+    margin-top: 10%;
+    float:left; 
+}
+.componentHeading{
+color:rgb(236, 183, 84);
+font-size: 30px;
+margin-top: 0%;
+margin-left:10%;
+}
+.componentsubHeading{
+color: rgb(2, 12, 12);
+font-size: 25px;
+margin-top: 5%;
+margin-left:10%;
+}
+/*footercss*/
+#footer{
+    height: 120px;
+    width: 100%;
+    border:4px groove none;
+    background-color:#48f773;
+    border-top:2%;
+}
+#foottext{
+    text-align: center;
+}
+.footDiv{
+    height: 66px;
+    width: 33%;
+    border-right: 2px solid black;
+    margin-top: -1%;
+    float:left;
+    text-align: center;
+}
+.footDiv>p{
+    margin-left: 2%;
+}
+.noborder{
+    border:none;
+    float:right;
+}
