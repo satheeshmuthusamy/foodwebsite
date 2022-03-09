@@ -1,0 +1,123 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Zomato</title>
+        <link rel="stylesheet"href="listing.css"></link>
+    </head>
+    <body>
+        <div id="header">
+            <div id="icon">
+                <h1 id="zomato">Zomato</h1>
+            </div>
+            <div id="social">
+                <a href="https.//facebook.com"target="_blank">
+                <img src="images/fbicon.png" alt="fbicon"class="slogo"title="facebook"/>
+            </a>
+            <a href="https.//youtube.com"target="_blank">
+                <img src="images/yticon.jpg" alt="youtubeicon"class="slogo"title="youtube"/>
+            </a>
+            <a href="https.//instagram.com"target="_blank">
+                <img src="images/instaicon.jpg" alt="instaicon"class="slogo"title="instagam"/>
+            </a>
+            </div>
+        </div>
+        <div id="login">
+            <div id="old">
+                <img src="https://www.bing.com/th?id=OIP.T3t7zD6Ll0PMLLC5XsLBjgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"alt="login"title="login"/>
+            </div>
+            <div id="new">
+                <img src="https://th.bing.com/th?q=Sign+Up+Icon+Vector&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247"alt="signup"title="signup">
+            </div>
+        </div>
+        <p class="Headingtext">Listing page</p>
+        <div id="content">
+            <div id="filterdiv">
+                <h3 id="filter">Filter</h3>
+                <h3 class="cuisinefilter">Cuisine filter</h3>
+                <input type="radio"name="foodcuisine"value="southindian"checked id="radio">South Indian<br>
+                <input type="radio"name="foodcuisine"value="northindian"id="radio">North Indian<br>
+                <input type="radio"name="foodcuisine"value="chinesefood"id="radio">Chinese Food<br>
+                <input type="radio"name="foodcuisine"value="italianfood"id="radio">Italian Food<br>
+                <input type="radio"name="foodcuisine"value="mexiacnfood"id="radio">Mexican Food<br>
+                <h3 id="costfilter">Cost filter</h3>
+                <input type="checkbox"name="Range[]"value="0-500"id="radio">0-500<br>
+                <input type="checkbox"name="Range[]"value="500-1000"id="radio">500-1000<br>
+                <input type="checkbox"name="Range[]"value="1000-1500"id="radio">1000-1500<br>
+                <input type="checkbox"name="Range[]"value="1500-2000"id="radio">1500-2000<br>
+                <input type="checkbox"name="Range[]"value="above2000"id="radio">above 2000<br>
+                <h3>Select city</h3>
+                <select name="city" id="city">
+                    <option>select city</option>  
+                 <option>Coimbatore</option>
+                 <option>Chenai</option>
+                 <option>Mumbai</option>
+                 <option>Kolkata</option>
+                </select><br/>
+                <br><input type="submit"value="Apply"id="apply"style="center">
+            </div>
+            
+            <div id="contentdiv">
+                <div id="menu1">
+                    <div id="tile1">
+                        <img src="https://th.bing.com/th/id/OIP.a3r8TgXUs-86kn5tBi2EgQHaEK?w=306&h=180&c=7&r=0&o=5&pid=1.7"alt="dosaimage"/>
+                    </div>
+                    <div id="tile2">
+                        <h3>Hotel Shree Annapoorna</h3>
+                        <p>South indian<br/>Pure veg</p>
+                        <p>City: Coimbatore</p>
+                        <p id="star"><button>4.1&star;</button></p>
+                        <div id="offer">
+                            <div id="offer1">10%OFF</div>
+                            <div id="offer2">15%OFF</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu2">
+                    <div id="tile1">
+                        <img src="https://www.bing.com/th?id=OIP.kH3-X_c4mZk_mexeo4pXowHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"alt="paratha"/>
+                    </div>
+                    <div id="tile2">
+                        <h3>Sharma Punjabi Hotel</h3>
+                        <p>North indian<br/>Veg & Non-veg</p>
+                        <p>City: Coimbatore</p>
+                        <p><button>4.0&star;</button></p>
+                        <div id="offer">
+                            <div id="offer1">8%OFF</div>
+                            <div id="offer2">12%OFF</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="pageview">
+                    <h3><span id="ph">pages</span></h3>
+                    <div id="page"class="arrow">&leftarrow;</div>
+                    <div id="page"class="num">1</div>
+                    <div id="page"class="num">2</div>
+                    <div id="page"class="num">3</div>
+                    <div id="page"class="num">4</div>
+                    <div id="page"class="num">5</div>
+                    <div id="page"class="num">6</div>
+                    <div id="page"class="arrow2">&rightarrow;</div>
+                </div>
+            </div>
+        </div>
+       
+        <div id="footer">
+            <hr/>
+            <p id="foottext">&copy;Zomato</p>
+            <hr/>
+            <div class="footDiv">
+                <p>contact us</p>
+                <p>About us</p>
+            </div>
+            <div class="footDiv">
+                <p>contact us</p>
+                <p>About us</p>
+            </div>
+            <div class="footDiv noborder">
+                <p>contact us</p>
+                <p>About us</p>
+            </div>
+        </div>
+    </body>
+</html>
