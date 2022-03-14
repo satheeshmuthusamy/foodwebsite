@@ -1,11 +1,15 @@
 body{
     margin: auto;
-    background-color:rgb(196 223 220);
+    background-color:rgb(208, 238, 37);
+    
+   
     }
 #zomato{
     text-align: center;
-    margin-left: 500%;
+    margin-left: 350%;
     font-weight: bold;
+    font-size:50px;
+   
 }
 a{
     text-decoration: none;
@@ -14,7 +18,8 @@ a{
     height: 60px;
     width: 100%;
     border:2px solid none;
-    background-color: #a1f08e;
+    background-color: #e5c02d;
+    
 }
 #icon{
     float: left;
@@ -32,13 +37,14 @@ a{
     width: 100%;
     height:40px;
     border: 2px solid none;
+    background-color: #e5c02d;
 }
 #old{
     width: 5%;
     height:40px;
     border: 2px solid none;
     float:left;
-    margin-left:78%;
+    margin-left:76%;
 }
 
 #old>img{
@@ -53,7 +59,7 @@ a{
     width: 5%;
     height:40px;
     border: 2px solid none;
-    float:left;
+    float:right;
 
 }
 
@@ -61,6 +67,10 @@ a{
     text-align:center;
     font-size: 30px;
     font-weight: bold;
+    border: 2px solid none;
+    background-color:none;
+    height: 40px;
+    margin-left:0%;
 }
 #content{
 height: 800px;
@@ -71,7 +81,7 @@ margin-left:10%
 #filterdiv{
     height: 500px;
     width: 20%;
-    border:2px solid black;
+    border:2px solid white;
     float: left
 }
 #contentdiv{
@@ -106,7 +116,7 @@ margin-left:10%
     height: 300px;
     width: 90%;
     margin-left: 5%;
-    border:2px solid none;
+    border:2px solid white;
     float: none;
     margin-top: 2%;
 }
@@ -114,7 +124,7 @@ margin-left:10%
     height: 300px;
     width: 90%;
     margin-left: 5%;
-    border:2px solid none;
+    border:2px solid white;
     float: none;
 }
 #pageview{
@@ -154,14 +164,14 @@ margin-left:10%
     width:49%;
     height: 300px;
     border: 2px solid none;
-    background-color:none;
+    background-color:rgb(208, 238, 37);
     float: left;
 }
 #tile2{
     width:49%;
     height: 300px;
     border: 2px solid none;
-    background-color:none;
+    background-color:rgb(208, 238, 37);
     float: right;
 }
 #tile1>img{
@@ -194,14 +204,18 @@ button{
     margin-left:10px;
     background-color:rgb(27, 221, 27);
 }
-
+.types{
+    height: 200px;
+    width: 80%;
+    border:2px solod black;
+}
 
 /*footercss*/
 #footer{
     height: 120px;
     width: 100%;
     border:4px groove none;
-    background-color:#48f773;
+    background-color:#e5c02d;
     border-top:2%;
     
 }
